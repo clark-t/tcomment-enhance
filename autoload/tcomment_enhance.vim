@@ -1,5 +1,5 @@
 
-function! tcomment_vim#toggle()
+function! tcomment_enhance#toggle()
   let startlen = len(getline('.'))
   execute "normal gcc\<ESC>\<ESC>"
   let endlen = len(getline('.'))
@@ -10,7 +10,7 @@ function! tcomment_vim#toggle()
   endif
 endfunction
 
-function! tcomment_vim#togglelines()
+function! tcomment_enhance#togglelines()
   silent execute "normal! \<ESC>`>"
   let endLineNumber = line('.')
   silent execute "normal! `<"
