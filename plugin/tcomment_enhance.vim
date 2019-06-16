@@ -1,4 +1,4 @@
-if !exists('loaded_tcomment') & exists('loaded_tcomment_enhance')
+if !exists('loaded_tcomment') && exists('loaded_tcomment_enhance')
   finish
 endif
 
